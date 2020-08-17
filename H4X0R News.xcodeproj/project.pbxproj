@@ -13,6 +13,10 @@
 		01316DEB24E3DF8100224D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01316DEA24E3DF8100224D80 /* Assets.xcassets */; };
 		01316DEE24E3DF8100224D80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01316DED24E3DF8100224D80 /* Preview Assets.xcassets */; };
 		01316DF124E3DF8100224D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01316DEF24E3DF8100224D80 /* LaunchScreen.storyboard */; };
+		01316DFA24E3E35F00224D80 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01316DF924E3E35F00224D80 /* NetworkManager.swift */; };
+		01316DFC24E3E4D700224D80 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01316DFB24E3E4D700224D80 /* PostData.swift */; };
+		01316DFF24E3F72F00224D80 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01316DFE24E3F72F00224D80 /* DetailView.swift */; };
+		01A9ECC424EA34F60037A151 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A9ECC324EA34F60037A151 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		01316DED24E3DF8100224D80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01316DF024E3DF8100224D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01316DF224E3DF8100224D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01316DF924E3E35F00224D80 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		01316DFB24E3E4D700224D80 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		01316DFE24E3F72F00224D80 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		01A9ECC324EA34F60037A151 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,8 @@
 			children = (
 				01316DE424E3DF7C00224D80 /* AppDelegate.swift */,
 				01316DE624E3DF7C00224D80 /* SceneDelegate.swift */,
-				01316DE824E3DF7C00224D80 /* ContentView.swift */,
+				01316DFD24E3F6C400224D80 /* Views */,
+				01316DF824E3E31F00224D80 /* Models */,
 				01316DEA24E3DF8100224D80 /* Assets.xcassets */,
 				01316DEF24E3DF8100224D80 /* LaunchScreen.storyboard */,
 				01316DF224E3DF8100224D80 /* Info.plist */,
@@ -73,6 +82,26 @@
 				01316DED24E3DF8100224D80 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01316DF824E3E31F00224D80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01316DF924E3E35F00224D80 /* NetworkManager.swift */,
+				01316DFB24E3E4D700224D80 /* PostData.swift */,
+				01A9ECC324EA34F60037A151 /* WebView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01316DFD24E3F6C400224D80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01316DE824E3DF7C00224D80 /* ContentView.swift */,
+				01316DFE24E3F72F00224D80 /* DetailView.swift */,
+			);
+			name = Views;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01316DFC24E3E4D700224D80 /* PostData.swift in Sources */,
+				01316DFF24E3F72F00224D80 /* DetailView.swift in Sources */,
+				01316DFA24E3E35F00224D80 /* NetworkManager.swift in Sources */,
 				01316DE524E3DF7C00224D80 /* AppDelegate.swift in Sources */,
 				01316DE724E3DF7C00224D80 /* SceneDelegate.swift in Sources */,
 				01316DE924E3DF7C00224D80 /* ContentView.swift in Sources */,
+				01A9ECC424EA34F60037A151 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
