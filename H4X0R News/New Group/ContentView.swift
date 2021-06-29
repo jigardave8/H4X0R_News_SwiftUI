@@ -22,7 +22,8 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationBarTitle("H4X0R NEWS")
+            .navigationBarTitle("NEWS")
+            .foregroundColor(.red)
         }
         .onAppear {
             self.networkManager.fetchData()

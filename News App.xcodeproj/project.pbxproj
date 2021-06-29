@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01316DE124E3DF7C00224D80 /* H4X0R News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01316DE124E3DF7C00224D80 /* News App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01316DE424E3DF7C00224D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01316DE624E3DF7C00224D80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01316DE824E3DF7C00224D80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		01316DE224E3DF7C00224D80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01316DE124E3DF7C00224D80 /* H4X0R News.app */,
+				01316DE124E3DF7C00224D80 /* News App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01316DE024E3DF7C00224D80 /* H4X0R News */ = {
+		01316DE024E3DF7C00224D80 /* News App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01316DF524E3DF8100224D80 /* Build configuration list for PBXNativeTarget "H4X0R News" */;
+			buildConfigurationList = 01316DF524E3DF8100224D80 /* Build configuration list for PBXNativeTarget "News App" */;
 			buildPhases = (
 				01316DDD24E3DF7C00224D80 /* Sources */,
 				01316DDE24E3DF7C00224D80 /* Frameworks */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = "H4X0R News";
+			name = "News App";
 			productName = "H4X0R News";
-			productReference = 01316DE124E3DF7C00224D80 /* H4X0R News.app */;
+			productReference = 01316DE124E3DF7C00224D80 /* News App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01316DDC24E3DF7C00224D80 /* Build configuration list for PBXProject "H4X0R News" */;
+			buildConfigurationList = 01316DDC24E3DF7C00224D80 /* Build configuration list for PBXProject "News App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01316DE024E3DF7C00224D80 /* H4X0R News */,
+				01316DE024E3DF7C00224D80 /* News App */,
 			);
 		};
 /* End PBXProject section */
@@ -356,7 +356,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01316DDC24E3DF7C00224D80 /* Build configuration list for PBXProject "H4X0R News" */ = {
+		01316DDC24E3DF7C00224D80 /* Build configuration list for PBXProject "News App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01316DF324E3DF8100224D80 /* Debug */,
@@ -365,7 +365,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01316DF524E3DF8100224D80 /* Build configuration list for PBXNativeTarget "H4X0R News" */ = {
+		01316DF524E3DF8100224D80 /* Build configuration list for PBXNativeTarget "News App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01316DF624E3DF8100224D80 /* Debug */,
